@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: de.maybebuggy.birt.oda.msaccess.ui; singleton:=true
+Bundle-Version: 1.0.0.alpha
+Bundle-Activator: de.maybebuggy.birt.oda.msaccess.ui.Activator
+Bundle-Vendor: Sascha Vogt
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.datatools.connectivity.oda.design.ui;bundle-version="[3.2.0,4.0.0)",
+ de.maybebuggy.birt.oda.msaccess,
+ de.maybebuggy.jackcess;bundle-version="1.2.4"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
